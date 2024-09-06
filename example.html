@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>22100162-sign-in-brightnessmode</title>
+
+    <style>
+        .container {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 50%; 
+            margin-left: -150px;
+            top: 50%; 
+            margin-top: -220px;
+        }
+        body{
+            background-color: #F8f9fa;
+        }
+        .fontcolor{
+            color: #212529;
+        }
+        #top{
+            width: 298px; height: 29.86px; 
+            margin: 0px 0px 16px;
+            padding: auto;
+            font-size: 25px;
+            font-weight: 100;
+        }
+        .login{
+            width: 298px; height: 116px;
+        }
+        #email{
+            width: 270px; height: 22px; 
+            margin: 0px 0px -1px;
+            padding: 16px 12px;
+
+            font-size: large;
+
+            border: solid 1px;
+            border-radius: 5px 5px 0px 0px;
+            border-color: rgba(0, 0, 0, 0.1);
+        }
+        .login::placeholder {
+            color: rgba(0, 0, 0, 0.7);
+            font-size: medium;
+        }
+        #password{
+            width: 270px; height: 22px; 
+            margin: 0px 0px 10px;
+            padding: 16px 12px;
+
+            font-size: large;
+
+            border: solid 1px;
+            border-radius: 0px 0px 5px 5px;
+            border-color: rgba(0, 0, 0, 0.1);
+        }
+        #checkbox{
+            width: 298px; height: 24px; 
+            margin: 16px 0px;
+            padding: 0px 0px 0px 0px;
+
+            accent-color: #0d62fd; 
+        }
+        #button{
+            width: 298px; 
+            height: 42px;
+            padding: 8px 12px;
+
+            background-color: #0d62fd;
+            color: #ffffff;
+
+            font-size: medium;
+            
+            border: solid;
+            border-radius: 5px 5px 5px 5px;
+            border-color: rgba(0, 0, 0, 0.1);
+
+            cursor: pointer;
+        }
+        #button:hover{
+            background-color: #104dbf;
+        }
+        #comment{
+            width: 298px; height: 24px;
+            margin: 48px 0px 16px;
+            color: #212529bf;
+        }
+        #theme{
+            background-color: #712cf9;
+            width: 31.08px; height: 26px;
+            padding: 8px 12px;
+
+            border-radius: 5px 5px 5px 5px;
+
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            padding: 10px;
+        }
+        #sun{
+            margin-top: 5px;
+        }
+        #select{
+            position: fixed;
+            bottom: 10px;
+            right: 1px;
+            padding: 10px;
+
+            opacity: 0;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="bootstrap-logo.svg" alt="" width="72" height="57" style="margin: 0px 0px 24px;">
+
+        <h1 class="fontcolor" id="top">
+            Please sign in
+        </h1>
+    
+
+        <input class="login" id="email" type="email" placeholder="Email address">
+        <br>
+        <input class="login" id="password" type="password" placeholder="Password">
+        
+        <div id="checkbox">
+            <input type="checkbox">
+            <label class="fontcolor">Remember me</label>
+        </div>
+        
+        <button  id="button" class="fontcolor">
+            Sign in
+        </button>
+        
+        <p id="comment" class="fontcolor">&copy; 2017-2024</p>    
+
+        <div id="theme">
+            <img src="brightness-high-fill.svg" alt="" width="16px" height="16px" id="sun">
+            <img src="caret-down-fill.svg" alt="" width="10px" height="10px" id="down">
+        </div>
+
+        <div id="select">
+            <a href="example2.html"> change </a>
+        </div>
+
+    </div>
+</body>
+</html>
